@@ -1,0 +1,50 @@
+:root {
+  --primary-color: #faf4ea;
+  --primary-color-second: #819b57;
+  --primary-color-third: #31261a;
+}
+ul {
+  list-style-type: none;
+}
+a {
+  color: transparent;
+  text-decoration: none;
+  color: gray;
+}
+
+header {
+  max-width: 1250px;
+  display: flex;
+  justify-content: space-around;
+  margin: 0 auto;
+}
+.main-menu-navigations {
+  display: flex;
+  justify-content: space-around;
+  gap: 60px;
+}
+.menu {
+  display: flex;
+
+  gap: 30px;
+}
+.tradition-other-color {
+  color: var(--primary-color-second);
+}
+.button {
+  width: 238px;
+  height: 59px;
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 27px;
+  background-color: var(--primary-color-second);
+  border-radius: 8px;
+  padding: 16px 32px;
+  border: 2px solid var(--primary-color-second);
+  color: white;
+}
+.button:hover {
+  background-color: transparent;
+  color: var(--primary-color-third);
+}
